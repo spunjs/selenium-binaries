@@ -1,0 +1,33 @@
+{
+  "name": "selenium-binaries",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Downloads Selenium related binaries for your OS",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "pretest": "jshint lib",
+    "test": "node ./lib/install.js",
+    "install": "node ./lib/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spunjs/selenium-binaries.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spunjs/selenium-binaries/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.2"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "download": "^0.1.18",
+    "is-dir": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "unzip": "^0.1.9",
+    "which": "^1.0.5"
+  }
+}
