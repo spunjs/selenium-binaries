@@ -4,8 +4,13 @@
 ## How do I use this?
 1. Add it as a dependency in your `package.json` file.
 2. `npm install`
-3. `var chromedriverPath = require('selenium-binaries').chrome;`
+3. `var chromedriverPath = require('selenium-binaries').chromedriver;`
 4. `process.env.CHROME_DRIVER_PATH = chromedriverPath;` Do this as required.
+
+The module exposes the following paths:
+* `chromedriver`
+* `iedriver`
+* `seleniumserver`
 
 ## Where do binaries get installed?
 If you're running as `root` on \*nix based systems, binaries go under
@@ -22,10 +27,10 @@ Here's the deal...
 ### selenium-server-standalone.jar
 You need to install this on any OS, so this module takes care of that.
 
-### chromedriver
+### ChromeDriver
 You need to install this on any OS, so this module takes care of that.
 
-### iedriver
+### IEDriver
 You only need this on windows, so this module takes care of that.
 
 In addition, you have to set registry values that deal with IE security settings.
