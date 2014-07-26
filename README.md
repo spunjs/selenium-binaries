@@ -65,5 +65,5 @@ THE SOFTWARE.
 [npm-url]: https://npmjs.org/package/selenium-binaries
 [npm-image]: http://img.shields.io/npm/v/selenium-binaries.svg
 
-[travis-url]: https://travis-ci.org/jsdevel/selenium-binaries
-[travis-image]: http://img.shields.io/travis/jsdevel/selenium-binaries.svg
+[travis-url]: https://travis-ci.org/spunjs/selenium-binaries
+[travis-image]: http://img.shields.io/travis/spunjs/selenium-binaries.svg
