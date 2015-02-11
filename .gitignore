@@ -28,4 +28,4 @@ npm-debug.log
 
 # NPM Dependencies
 /node_modules/
-.binary-paths.json
+binary-paths.json
