@@ -1,6 +1,0 @@
-{
-  "home": "/home/joseph/.selenium-binaries",
-  "iedriver": null,
-  "chromedriver": "/home/joseph/.selenium-binaries/chromedriver/2.10/chromedriver",
-  "seleniumserver": "/home/joseph/.selenium-binaries/selenium/2.43.0/selenium-server-standalone-2.43.0.jar"
-}
