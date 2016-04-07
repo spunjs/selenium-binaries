@@ -6,8 +6,8 @@
   "author": "Joseph Spencer",
   "scripts": {
     "pretest": "jshint lib",
-    "test": "node ./lib/install.js",
-    "install": "node ./lib/install.js"
+    "test": "node --require ./lib/init-environment.js ./lib/install.js",
+    "install": "node --require ./lib/init-environment.js ./lib/install.js"
   },
   "repository": {
     "type": "git",
