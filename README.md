@@ -26,18 +26,18 @@ Here's the deal...
 
 ### selenium-server-standalone.jar
 You need to install this on any OS, so this module takes care of that.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_SERVER_STANDALONE_VERSION` environment variable (default: 2.53.0).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_SERVER_STANDALONE_VERSION` environment variable (default: 2.53.1).
 
 ### ChromeDriver
 You need to install this on any OS, so this module takes care of that.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_CHROMEDRIVER_VERSION` environment variable (default: 2.21).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_CHROMEDRIVER_VERSION` environment variable (default: 2.22).
 
 ### IEDriver
 You only need this on windows, so this module takes care of that.
 
 In addition, you have to set registry values that deal with IE security settings.
 This module takes care of that as well.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 2.53.0).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 2.53.1).
 
 ##LICENSE
 ``````
