@@ -8,10 +8,10 @@
 4. `process.env.CHROME_DRIVER_PATH = chromedriverPath;` Do this as required.
 
 The module exposes the following paths:
-* `seleniumserver`
 * `chromedriver`
 * `geckodriver`
 * `iedriver`
+* `seleniumserver`
 
 ## Where do binaries get installed?
 If you're running as `root` on \*nix based systems, binaries go under
