@@ -44,7 +44,10 @@ In addition, you have to set registry values that deal with IE security settings
 This module takes care of that as well.
 To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 2.53.1).
 
-##LICENSE
+## Can I force the usage of 32 bits binaries instead of 64 bits when available?
+Sure, set the `SELENIUM_BINARIES_FORCE_32BITS` environment variable to `true`.
+
+## LICENSE
 ``````
 The MIT License (MIT)
 
