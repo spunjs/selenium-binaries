@@ -9,17 +9,18 @@
 
 The module exposes the following paths:
 * `chromedriver`
+* `geckodriver`
 * `iedriver`
 * `seleniumserver`
 
 ## Where do binaries get installed?
 If you're running as `root` on \*nix based systems, binaries go under
-`/lib/selenium-binaries`.  Otherwise, binaries go under `$HOME/.selenium-binaries`.
+`/lib/selenium-binaries`. Otherwise, binaries go under `$HOME/.selenium-binaries`.
 Installing multiple versions of the same binary is handled appropriately across
 your projects.
 
 ## Why not put binaries in the project?
-Because they exceed 36MB in size.  Save the hard drive!
+Because they exceed 36MB in size. Save the hard drive!
 
 ## Binaries
 Here's the deal...
@@ -31,6 +32,10 @@ To manually specify which version gets installed, set the `SELENIUM_BINARIES_SER
 ### ChromeDriver
 You need to install this on any OS, so this module takes care of that.
 To manually specify which version gets installed, set the `SELENIUM_BINARIES_CHROMEDRIVER_VERSION` environment variable (default: 2.22).
+
+### GeckoDriver
+You need to install this on any OS, so this module takes care of that.
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_GECKODRIVER_VERSION` environment variable (default: 0.9.0).
 
 ### IEDriver
 You only need this on windows, so this module takes care of that.
