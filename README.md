@@ -8,10 +8,10 @@
 4. `process.env.CHROME_DRIVER_PATH = chromedriverPath;` Do this as required.
 
 The module exposes the following paths:
-* `seleniumserver`
 * `chromedriver`
 * `geckodriver`
 * `iedriver`
+* `seleniumserver`
 
 ## Where do binaries get installed?
 If you're running as `root` on \*nix based systems, binaries go under
@@ -45,7 +45,7 @@ This module takes care of that as well.
 To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 2.53.1).
 
 ## Can I force the usage of 32 bits binaries instead of 64 bits when available?
-Sure, set the `SELENIUM_BINARIES_FORCE_32BITS` environment variable to `true`.
+Sure, set the `SELENIUM_BINARIES_FORCE_32BITS` environment variable to `1` or `true`.
 
 ## LICENSE
 ``````
