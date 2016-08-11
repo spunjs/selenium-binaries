@@ -29,3 +29,4 @@ npm-debug.log
 # NPM Dependencies
 /node_modules/
 binary-paths.json
+last-config.json

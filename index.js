@@ -1,14 +1,16 @@
 'use strict';
 
-var cli = require('./lib/cli');
 var path = require('path');
 var fs = require('fs');
-//NOTE: binary-paths.json is created by the install script.
-var binaryPaths = path.resolve(__dirname, 'binary-paths.json');
+var cli = require('./lib/cli');
 
+// NOTE: binary-paths.json is created by the install script.
+var binaryPaths = path.resolve(__dirname, 'binary-paths.json');
 var ERR_COULD_NOT_FIND_BINARY_PATHS = 1;
 
-if (!fs.existsSync(binaryPaths)) {
+try {
+  fs.accessSync(binaryPaths);
+} catch (e) {
   cli.err('Could not find ' + binaryPaths);
   cli.err('This file is generated during the install phase.');
   cli.err('This most likely means some binaries failed to download.');
