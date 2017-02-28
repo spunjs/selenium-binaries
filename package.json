@@ -13,8 +13,13 @@
     "type": "git",
     "url": "https://github.com/spunjs/selenium-binaries.git"
   },
-  "keywords": [],
-  "contributors": [],
+  "keywords": [ "selenium", "chromedriver", "geckodriver", "iedriver" ],
+  "contributors": [
+    {
+      "name": "Alex Fournier",
+      "email": "alex.fournier.fr@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spunjs/selenium-binaries/issues"
