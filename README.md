@@ -27,22 +27,22 @@ Here's the deal...
 
 ### selenium-server-standalone.jar
 You need to install this on any OS, so this module takes care of that.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_SERVER_STANDALONE_VERSION` environment variable (default: 3.0.1).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_SERVER_STANDALONE_VERSION` environment variable (default: 3.1.0).
 
 ### ChromeDriver
 You need to install this on any OS, so this module takes care of that.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_CHROMEDRIVER_VERSION` environment variable (default: 2.25).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_CHROMEDRIVER_VERSION` environment variable (default: 2.27).
 
 ### GeckoDriver
 You need to install this on any OS, so this module takes care of that.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_GECKODRIVER_VERSION` environment variable (default: 0.11.1).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_GECKODRIVER_VERSION` environment variable (default: 0.14.0).
 
 ### IEDriver
 You only need this on windows, so this module takes care of that.
 
 In addition, you have to set registry values that deal with IE security settings.
 This module takes care of that as well.
-To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 2.53.1).
+To manually specify which version gets installed, set the `SELENIUM_BINARIES_IEDRIVER_VERSION` environment variable (default: 3.1.0).
 
 ## Can I force the usage of 32 bits binaries instead of 64 bits when available?
 Sure, set the `SELENIUM_BINARIES_FORCE_32BITS` environment variable to `1` or `true`.
