@@ -19,6 +19,9 @@ If you're running as `root` on \*nix based systems, binaries go under
 Installing multiple versions of the same binary is handled appropriately across
 your projects.
 
+Set the `SELENIUM_BINARIES_HOME` environment variable to use a specific location
+where to install binaries.
+
 ## Why not put binaries in the project?
 Because they exceed 36MB in size. Save the hard drive!
 
