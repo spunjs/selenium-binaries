@@ -1,7 +1,7 @@
 {
   "name": "selenium-binaries",
   "main": "index.js",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "Downloads Selenium related binaries for your OS",
   "author": "Joseph Spencer",
   "scripts": {
