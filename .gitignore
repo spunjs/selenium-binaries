@@ -19,9 +19,7 @@ npm-debug.log
 /nbproject/
 
 # Webstorm Settings
-.idea/*
-!.idea/inspectionProfiles
-!.idea/jsLinters
+.idea
 
 # Istanbul Output
 /coverage/
